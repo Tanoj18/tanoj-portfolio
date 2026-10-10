@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanoj | CS Student Portfolio</title>
+    <meta name="description" content="Personal portfolio of Tanoj - Second-year Computer Science student at Sri Vasavi Engineering College, focusing on programming, Java, Python, and web development.">
+    <!-- Google Font: Poppins (Weights 100 to 900) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6.5.2 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER & NAVIGATION ==================== -->
+    <header class="header">
+        <a href="#home" class="logo">Tanoj</a>
+
+        <!-- Mobile Drawer Hamburger Icon -->
+        <i class="fa-solid fa-bars" id="menu-icon" aria-label="Toggle navigation menu"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ==================== HOME / HERO SECTION ==================== -->
+    <section class="home reveal-section" id="home">
+        <div class="home-content">
+            <h1>Hi, it's <span>Tanoj</span></h1>
+            <!-- Static, unglitched subtitle -->
+            <h3 class="hero-subtitle">I'm a <span>CS Student</span></h3>
+            
+            <p>I'm a second-year Computer Science student at Sri Vasavi Engineering College, interested in programming, Java, Python, and web development. I'm building my technical foundation through learning, practice, and personal projects, with the goal of becoming a skilled developer.</p>
+
+            <!-- Direct Contact CTA Button with hover glow -->
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="main.jpg" alt="Tanoj Anime Portrait Avatar">
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills reveal-section" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <!-- Category A: Programming Fundamentals -->
+            <div class="skills-column">
+                <h3 class="title"><i class="fa-solid fa-code"></i> Programming Fundamentals</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>C Programming</h4>
+                                <span class="skill-badge">Basic</span>
+                            </div>
+                            <p class="skill-desc">Basic programming concepts, variables, data types, conditions, loops, functions, and arrays.</p>
+                            <div class="bar"><span class="level-basic" style="--target-width: 55%;"></span></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <span class="skill-badge">Learning</span>
+                            </div>
+                            <p class="skill-desc">Learning Java fundamentals, object-oriented programming concepts, and methods.</p>
+                            <div class="bar"><span class="level-learning" style="--target-width: 50%;"></span></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <span class="skill-badge">Learning</span>
+                            </div>
+                            <p class="skill-desc">Learning Python syntax, basic programming, and problem-solving.</p>
+                            <div class="bar"><span class="level-learning" style="--target-width: 50%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category B: Web Development (Updated with Website Fundamentals, Responsive Design, Basic UI/UX) -->
+            <div class="skills-column">
+                <h3 class="title"><i class="fa-solid fa-globe"></i> Web Development</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Website Fundamentals</h4>
+                                <span class="skill-badge">Learning</span>
+                            </div>
+                            <p class="skill-desc">Understanding the core concepts of how websites are structured and how frontend technologies work together.</p>
+                            <div class="bar"><span class="level-learning" style="--target-width: 60%;"></span></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Responsive Design</h4>
+                                <span class="skill-badge">Learning</span>
+                            </div>
+                            <p class="skill-desc">Learning to create websites that adapt smoothly to desktop, tablet, and mobile screens.</p>
+                            <div class="bar"><span class="level-learning" style="--target-width: 55%;"></span></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Basic UI/UX</h4>
+                                <span class="skill-badge">Learning</span>
+                            </div>
+                            <p class="skill-desc">Exploring user interface design, visual hierarchy, spacing, usability, and user-friendly web experiences.</p>
+                            <div class="bar"><span class="level-learning" style="--target-width: 50%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category C: Tools and Development -->
+            <div class="skills-column">
+                <h3 class="title"><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Development</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Git & GitHub</h4>
+                                <span class="skill-badge">Beginner</span>
+                            </div>
+                            <p class="skill-desc">Basic version control and project management.</p>
+                            <div class="bar"><span class="level-beginner" style="--target-width: 40%;"></span></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>AI-Assisted Development</h4>
+                                <span class="skill-badge">Exploring</span>
+                            </div>
+                            <p class="skill-desc">Exploring AI coding tools to assist with website development, debugging, and prototyping.</p>
+                            <div class="bar"><span class="level-exploring" style="--target-width: 65%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="education reveal-section" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="timeline-items">
+            <!-- Education 1: Newest Qualification -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025 – Present</div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <h4>Sri Vasavi Engineering College</h4>
+                    <div class="timeline-grade-badge">Grade: 9</div>
+                    <p>Second-year Computer Science and Engineering student focusing on core computer science foundations, problem-solving, and web development.</p>
+                </div>
+            </div>
+
+            <!-- Education 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 – 2025</div>
+                <div class="timeline-content">
+                    <h3>MPC</h3>
+                    <h4>Sasi Junior College</h4>
+                    <div class="timeline-grade-badge">Grade: 9.5</div>
+                    <p>Intermediate education with specialization in Mathematics, Physics, and Chemistry, graduating with a 9.5 academic grade.</p>
+                </div>
+            </div>
+
+            <!-- Education 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 – 2023</div>
+                <div class="timeline-content">
+                    <h3>SSC</h3>
+                    <h4>Sri Chaitanya High School</h4>
+                    <div class="timeline-grade-badge">Grade: 8.5</div>
+                    <p>Secondary school education, achieving an 8.5 academic score.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION (EmailJS Powered) ==================== -->
+    <section class="contact reveal-section" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-card">
+            <div class="contact-info-banner">
+                <div class="banner-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Inquiries delivered to: <strong>cse05b8@gmail.com</strong></span>
+                </div>
+                <div class="banner-item">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>Direct frontend submission via EmailJS with automatic visitor confirmation.</span>
+                </div>
+            </div>
+
+            <form action="#" id="contact-form" novalidate>
+                <div class="input-box">
+                    <div class="form-group">
+                        <input type="text" name="name" id="contact-name" placeholder="Full Name" required autocomplete="name">
+                        <small class="field-error" id="name-error"></small>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="contact-email" placeholder="Email Address" required autocomplete="email">
+                        <small class="field-error" id="email-error"></small>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <input type="text" name="subject" id="contact-subject" placeholder="Subject" required>
+                    <small class="field-error" id="subject-error"></small>
+                </div>
+
+                <div class="form-group full-width">
+                    <textarea name="message" id="contact-message" cols="30" rows="8" placeholder="Your Message" required></textarea>
+                    <small class="field-error" id="message-error"></small>
+                </div>
+
+                <!-- Live Status Alert Box -->
+                <div id="contact-status" class="contact-status" role="alert" style="display: none;"></div>
+
+                <button type="submit" class="btn" id="contact-submit">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-loader" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i> Sending...</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by <span>Tanoj</span> | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Back to Top"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Official EmailJS Browser SDK (v4) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Frontend EmailJS Configuration -->
+    <script src="emailjs-config.js"></script>
+    <script type="module">
+        // Consolidate configuration if running inside Vite environment with import.meta.env
+        try {
+            if (typeof import.meta !== 'undefined' && import.meta.env) {
+                window.EMAILJS_CONFIG = window.EMAILJS_CONFIG || {};
+                if (import.meta.env.VITE_EMAILJS_PUBLIC_KEY) {
+                    window.EMAILJS_CONFIG.VITE_EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+                }
+                if (import.meta.env.VITE_EMAILJS_SERVICE_ID) {
+                    window.EMAILJS_CONFIG.VITE_EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+                }
+                if (import.meta.env.VITE_EMAILJS_TEMPLATE_ID) {
+                    window.EMAILJS_CONFIG.VITE_EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+                }
+                if (import.meta.env.VITE_EMAILJS_ACK_TEMPLATE_ID) {
+                    window.EMAILJS_CONFIG.VITE_EMAILJS_ACK_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_ACK_TEMPLATE_ID;
+                }
+            }
+        } catch (e) {}
+    </script>
+    <!-- Main Interactive Client Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "tanoj-dark-anime-portfolio",
+  "version": "1.0.0",
+  "description": "Tanoj's Personal Developer Portfolio - Dark Anime Theme",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "anime",
+    "developer",
+    "student"
+  ],
+  "author": "Tanoj",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^5.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
